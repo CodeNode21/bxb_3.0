@@ -1,5 +1,6 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import ReCAPTCHA from "react-google-recaptcha";
 
 const PLAN_TEMPLATES = {
@@ -323,7 +324,8 @@ function buildPrefill({ plan, message }) {
   );
 }
 
-export default function ContactArea( {searchParams}) {
+export default function ContactArea() {
+  const searchParams = useSearchParams();
   const didPrefillRef = useRef(false);
 
   const [formData, setFormData] = useState({
@@ -465,7 +467,7 @@ export default function ContactArea( {searchParams}) {
                             rel="noopener noreferrer"
                           >
                             <img
-                              src="/assets/images/home2/youtube.svg"
+                              src="/assets/images/youtube.svg"
                               alt="Icon"
                             />
                           </a>
@@ -477,7 +479,7 @@ export default function ContactArea( {searchParams}) {
                             rel="noopener noreferrer"
                           >
                             <img
-                              src="/assets/images/home2/insta.svg"
+                              src="/assets/images/insta.svg"
                               alt="Icon"
                             />
                           </a>
@@ -488,7 +490,7 @@ export default function ContactArea( {searchParams}) {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            <img src="/assets/images/home2/in.svg" alt="Icon" />
+                            <img src="/assets/images/in.svg" alt="Icon" />
                           </a>
                         </li>
                       </ul>

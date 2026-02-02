@@ -4,17 +4,21 @@ import HeaderOne from "@/layouts/headers/HeaderOne";
 import Wrapper from "@/layouts/Wrapper";
 import ContactArea from "./ContactArea";
 import GoogleMap from "./GoogleMap";
+import { Suspense } from "react";
 
  
 
-export default function Contactus({ searchParams }) {
+export default function Contactus() {
   return (
     <Wrapper>
       <HeaderOne />
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <Breacrumb title="Contact Us" page="Contact Us" />
-          <ContactArea  searchParams={searchParams}/>
+          <Suspense fallback={null}>
+
+          <ContactArea />
+          </Suspense>
           <GoogleMap />          
           <FooterOne />
         </div>
