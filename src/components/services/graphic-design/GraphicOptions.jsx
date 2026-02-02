@@ -102,7 +102,7 @@ export default function GraphicOptions() {
               >
                 <img src="/assets/images/graphic/design.png" alt="Thumb" />
                 <div className="bxb-content-thumb-bg">
-                  <img src="/assets/images/home2/shape3.png" alt="shape" />
+                  <img src="/assets/images/home1/shape3.png" alt="shape" />
                 </div>
               </div>
             </div>

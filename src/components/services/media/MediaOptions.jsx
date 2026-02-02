@@ -104,7 +104,7 @@ export default function MediaOptions() {
               >
                 <img src="/assets/images/media/video.png" alt="Thumb" />
                 <div className="bxb-content-thumb-bg">
-                  <img src="/assets/images/home2/shape3.png" alt="shape" />
+                  <img src="/assets/images/home1/shape3.png" alt="shape" />
                 </div>
               </div>
             </div>
