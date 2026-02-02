@@ -17,7 +17,7 @@ export default function WebDevOptions() {
                   alt="Thumb"
                 />
                 <div className="bxb-content-thumb-bg">
-                  <img src="/assets/images/home2/shape2.png" alt="shape" />
+                  <img src="/assets/images/home1/shape2.png" alt="shape" />
                 </div>
               </div>
             </div>
@@ -195,7 +195,7 @@ export default function WebDevOptions() {
                   alt="Thumb"
                 />
                 <div className="bxb-content-thumb-bg">
-                  <img src="/assets/images/home2/shape2.png" alt="shape" />
+                  <img src="/assets/images/home1/shape2.png" alt="shape" />
                 </div>
               </div>
             </div>

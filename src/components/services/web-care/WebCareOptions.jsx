@@ -14,7 +14,7 @@ export default function WebCareOptions() {
               >
                 <img src="/assets/images/web-care/report.png" alt="Thumb" />
                 <div className="bxb-content-thumb-bg">
-                  <img src="/assets/images/home2/shape2.png" alt="shape" />
+                  <img src="/assets/images/home1/shape2.png" alt="shape" />
                 </div>
               </div>
             </div>
@@ -198,7 +198,7 @@ export default function WebCareOptions() {
               >
                 <img src="/assets/images/web-care/content.png" alt="Thumb" />
                 <div className="bxb-content-thumb-bg">
-                  <img src="/assets/images/home2/shape2.png" alt="shape" />
+                  <img src="/assets/images/home1/shape2.png" alt="shape" />
                 </div>
               </div>
             </div>

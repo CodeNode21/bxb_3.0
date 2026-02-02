@@ -35,7 +35,7 @@ export default function MobileMenu({ setIsOpen, isOpen }: MobileMenuProps) {
           <div className="bxb-menu-mobile-top">
             <div className="mobile-logo">
               <Link href="/">
-                <img src="/assets/images/logo/logo-dark.svg" alt="logo" />
+                <img src="/assets/images/logo_alt1_icon_bg_margin.png" alt="logo" />
               </Link>
             </div>
             <button className="bxb-menu-toggle mobile" onClick={() => setIsOpen && setIsOpen(false)}>
