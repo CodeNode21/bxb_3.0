@@ -1,6 +1,5 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
-import { useSearchParams } from "next/navigation";
 import ReCAPTCHA from "react-google-recaptcha";
 
 const PLAN_TEMPLATES = {
@@ -324,8 +323,7 @@ function buildPrefill({ plan, message }) {
   );
 }
 
-export default function ContactArea() {
-  const searchParams = useSearchParams();
+export default function ContactArea( {searchParams}) {
   const didPrefillRef = useRef(false);
 
   const [formData, setFormData] = useState({

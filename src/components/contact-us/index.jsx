@@ -7,14 +7,14 @@ import GoogleMap from "./GoogleMap";
 
  
 
-export default function Contactus() {
+export default function Contactus({ searchParams }) {
   return (
     <Wrapper>
       <HeaderOne />
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <Breacrumb title="Contact Us" page="Contact Us" />
-          <ContactArea />
+          <ContactArea  searchParams={searchParams}/>
           <GoogleMap />          
           <FooterOne />
         </div>
