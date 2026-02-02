@@ -1,0 +1,747 @@
+{
+  "posts": [
+    {
+      "id": "seo-hacks-diy",
+      "title": "Small Business SEO Hacks You Can Actually Do Yourself",
+      "slug": "small-business-seo-hacks-diy",
+      "category": { "label": "SEO/Marketing", "slug": "seo-marketing" },
+      "date": "2025-01-24",
+      "excerpt": "Quick wins you can knock out in an hour: tighten titles, fix pagespeed basics, improve local signals, and clean up your internal links. | Actionable SEO fixes small business owners can handle themselves: better titles, smarter internal links, faster pages, stronger local signals, and a simple 30-day routine that actually works.",
+      "thumbnail": {
+        "src": "/assets/images/blog-imgs/6/1.jpg",
+        "alt": "Small business SEO checklist"
+      },
+      "content": {
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Most SEO advice is either too technical to act on or too vague to matter. The reality is that a handful of simple fixes can improve visibility, clicks, and local rankings without hiring an agency. These are practical SEO improvements small business owners can actually do themselves."
+          },
+          {
+            "type": "h3",
+            "text": "1. Fix your page titles and meta descriptions"
+          },
+          {
+            "type": "p",
+            "text": "Title tags remain one of the strongest on-page SEO signals. Each page should clearly describe what the page offers and match how real people search. Avoid generic titles and focus on service + location + clarity."
+          },
+          {
+            "type": "p",
+            "text": "Meta descriptions do not affect rankings directly, but they strongly influence click-through rates. Write them like short ad copy: explain the value of the page and give users a reason to click."
+          },
+          { "type": "h3", "text": "2. Clean up your internal links" },
+          {
+            "type": "p",
+            "text": "Internal linking helps search engines understand which pages matter most on your site. Your homepage should link clearly to your key service pages, and related pages should reference each other naturally."
+          },
+          {
+            "type": "p",
+            "text": "Use descriptive link text instead of generic phrases. This improves usability for visitors and reinforces relevance for search engines."
+          },
+          {
+            "type": "image",
+            "src": "/assets/images/blog-imgs/6/2.jpg",
+            "alt": "SEO notes"
+          },
+          { "type": "h3", "text": "3. Fix obvious page speed issues" },
+          {
+            "type": "p",
+            "text": "You do not need perfect speed scores to see results. Focus on the basics that cause slow load times on most small business sites: oversized images, unnecessary scripts, and lack of caching."
+          },
+          {
+            "type": "p",
+            "text": "Compress images to the size they actually display on the page and enable lazy loading where possible. These changes alone can significantly reduce load times and bounce rates."
+          },
+          {
+            "type": "h3",
+            "text": "4. Improve local SEO signals"
+          },
+          {
+            "type": "p",
+            "text": "For businesses serving a specific area, local SEO is critical. Your Google Business Profile should be fully completed with accurate services, photos, and contact details that match your website."
+          },
+          {
+            "type": "p",
+            "text": "Consistency matters. Your business name, address, and phone number should match across your website, listings, and social profiles. Reviews also play a growing role in visibility and trust."
+          },
+          {
+            "type": "h3",
+            "text": "5. Remove thin or duplicate pages"
+          },
+          {
+            "type": "p",
+            "text": "More pages do not automatically mean better SEO. Pages with overlapping content can compete with each other and dilute ranking potential. Each page should have a clear purpose and target a specific search intent."
+          },
+          {
+            "type": "p",
+            "text": "If a page does not serve a unique role or help visitors, consolidate it with a stronger page or remove it entirely."
+          },
+          {
+            "type": "h3",
+            "text": "6. Follow a simple 30-day SEO routine"
+          },
+          {
+            "type": "p",
+            "text": "SEO works best when it is consistent and repeatable. Instead of chasing trends, build a routine you can maintain alongside running your business."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Review and refine page titles monthly",
+              "Add internal links whenever you publish new content",
+              "Check page speed after major site updates",
+              "Request reviews consistently from real customers"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Key takeaways for small business owners"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Titles, internal links, and page speed deliver fast SEO wins",
+              "Local signals matter more than advanced tools",
+              "Fewer strong pages outperform many weak ones",
+              "Consistency over 30 days beats one-time SEO efforts"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "SEO does not require doing everything at once. Focus on the small, measurable improvements you can repeat. That is where sustainable growth actually comes from."
+          }
+        ]
+      },
+      "tags": ["Marketing", "Business", "SEO"],
+      "stats": { "likes": 175, "comments": 23 }
+    },
+    {
+      "id": "web-design-trends-2026",
+      "title": "Web Design Trends to Watch in 2026",
+      "slug": "web-design-trends-2026",
+      "category": { "label": "", "slug": "" },
+      "date": "2025-01-10",
+      "excerpt": "Explore the top web design trends shaping 2026 — from immersive visuals and AI-driven personalization to performance-first layouts, accessibility, and minimal dynamic interactions that boost engagement and conversions.",
+
+      "thumbnail": {
+        "src": "/assets/images/blog-imgs/5/2.jpg",
+        "alt": "Small business SEO checklist"
+      },
+      "content": {
+        "blocks": [
+          {
+            "type": "p",
+            "text": "The web continues to evolve at a rapid pace, and 2026 brings new expectations for how websites should look, feel, and perform. Whether you’re launching a new site or planning an update, these design trends will help you stay modern without chasing gimmicks."
+          },
+
+          {
+            "type": "h3",
+            "text": "1. Immersive Visual Storytelling"
+          },
+          {
+            "type": "p",
+            "text": "High-impact visuals are no longer optional. Websites in 2026 will lean into immersive experiences through layered imagery, bold motion, and interactive elements that feel more like storytelling than static pages."
+          },
+          {
+            "type": "p",
+            "text": "Think dynamic transitions, subtle 3D depth, and visuals that guide attention toward key conversions without overwhelming users. Balance rich design with performance to avoid slow load times."
+          },
+
+          {
+            "type": "h3",
+            "text": "2. AI-Driven Personalization"
+          },
+          {
+            "type": "p",
+            "text": "Artificial intelligence is moving beyond content tools and into design itself. Personalized user experiences — like adaptive layouts, content suggestions, and smart navigation based on user behavior — are becoming standard."
+          },
+          {
+            "type": "p",
+            "text": "These experiences make websites feel intuitive and tailored to individual visitors, increasing engagement and driving better conversions."
+          },
+
+          {
+            "type": "h3",
+            "text": "3. Performance-First Design"
+          },
+          {
+            "type": "p",
+            "text": "Fast sites are not just about SEO anymore — they are expected. In 2026, performance-first design means building with efficiency in mind: optimized assets, responsive typography, and layouts that render quickly on every device."
+          },
+          {
+            "type": "p",
+            "text": "Designers are minimizing clutter, deferring non-essential scripts, and leveraging modern frameworks that balance visual richness with lightning-fast load times."
+          },
+
+          {
+            "type": "image",
+            "src": "/assets/images/blog/web-design-trends-2026.jpg",
+            "alt": "Web design trends visuals showing immersive and performance design examples"
+          },
+
+          {
+            "type": "h3",
+            "text": "4. Accessibility by Default"
+          },
+          {
+            "type": "p",
+            "text": "Accessibility is becoming a baseline expectation, not a nice-to-have. In 2026, inclusive design practices — like consistent heading structure, ARIA roles, keyboard navigation, and readable color contrast — are baked into site builds from the start."
+          },
+          {
+            "type": "p",
+            "text": "This approach not only benefits users with disabilities, it also improves SEO, readability, and overall user experience."
+          },
+
+          {
+            "type": "h3",
+            "text": "5. Minimal Dynamic Interactions"
+          },
+          {
+            "type": "p",
+            "text": "Micro-interactions — such as hover states, animated buttons, and subtle scroll triggers — continue to be popular, but the trend in 2026 favors *meaningful* interactions over gratuitous movement."
+          },
+          {
+            "type": "p",
+            "text": "Smart use of animation can guide attention, provide feedback, and improve usability when it is purposeful and performance-aware."
+          },
+
+          {
+            "type": "h3",
+            "text": "6. Design Systems and Component-Driven Builds"
+          },
+          {
+            "type": "p",
+            "text": "Organizations of all sizes are adopting design systems and component libraries. This trend drives consistency, accelerates development, and makes it easier to scale design across products and marketing channels."
+          },
+          {
+            "type": "p",
+            "text": "Component-driven design also simplifies A/B testing and iterative improvements without massive redesigns."
+          },
+
+          {
+            "type": "h3",
+            "text": "Key Takeaways for Designers and Business Owners"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Prioritize both aesthetics and loading performance",
+              "Use AI to personalize experiences without losing brand control",
+              "Build accessibility into every stage of design and development",
+              "Choose interactions that enhance clarity and flow"
+            ]
+          },
+
+          {
+            "type": "p",
+            "text": "Staying ahead in web design means balancing creativity, functionality, and performance. These trends reflect how user expectations are shifting — toward sites that are fast, inclusive, intuitive, and personalized."
+          }
+        ]
+      },
+      "tags": ["Web Design", "Design Trends", "2026 Trends"],
+      "stats": { "likes": 175, "comments": 23 }
+    },
+    {
+      "id": "hosting-provider-website-speed",
+      "title": "Why Your Hosting Provider Can Make or Break Your Website’s Speed",
+      "slug": "hosting-provider-website-speed",
+      "category": { "label": "", "slug": "" },
+      "date": "2025-12-27",
+      "excerpt": "Your website’s speed depends heavily on your hosting provider. Learn how server quality, configuration, and infrastructure directly affect load times, SEO, and user experience — and what small businesses should look for instead.",
+      "thumbnail": {
+        "src": "/assets/images/blog/blog-imgs/4/1.jpg",
+        "alt": "Small business SEO checklist"
+      },
+      "content": {
+        "blocks": [
+          {
+            "type": "p",
+            "text": "When a website feels slow, most people blame images, code, or plugins. While those matter, one of the biggest factors is often overlooked: your hosting provider. Hosting can quietly make or break your site’s speed, reliability, and overall performance."
+          },
+
+          {
+            "type": "h3",
+            "text": "Why hosting plays such a big role in site speed"
+          },
+          {
+            "type": "p",
+            "text": "Every time someone visits your website, their browser has to request files from a server. If that server is underpowered, overloaded, or poorly configured, your site will feel slow no matter how clean your design is."
+          },
+          {
+            "type": "p",
+            "text": "Good hosting is not just about uptime. It affects how quickly requests are processed, how fast assets are delivered, and how consistently your site performs under real-world traffic."
+          },
+
+          {
+            "type": "h3",
+            "text": "Shared hosting vs performance-focused hosting"
+          },
+          {
+            "type": "p",
+            "text": "Many small businesses start on shared hosting because it is inexpensive. The downside is that your site shares server resources with dozens or even hundreds of other sites. If one of them spikes traffic or misbehaves, everyone slows down."
+          },
+          {
+            "type": "p",
+            "text": "Performance-focused hosting uses isolated resources, smarter caching, and modern server stacks. This means more predictable speed, faster response times, and fewer performance drops during busy periods."
+          },
+
+          {
+            "type": "h3",
+            "text": "Server location and infrastructure matter"
+          },
+          {
+            "type": "p",
+            "text": "Where your server is physically located affects how fast data reaches your visitors. A site hosted close to your primary audience will generally load faster than one hosted across the country or overseas."
+          },
+          {
+            "type": "p",
+            "text": "Modern hosting setups also use SSD storage, optimized databases, and HTTP/2 or HTTP/3 support. These infrastructure details directly impact how quickly pages are delivered."
+          },
+
+          {
+            "type": "image",
+            "src": "/assets/images/blog-imgs/4/2.jpeg",
+            "alt": "Web hosting infrastructure and website performance illustration"
+          },
+
+          {
+            "type": "h3",
+            "text": "Caching, CDNs, and server configuration"
+          },
+          {
+            "type": "p",
+            "text": "Speed is not just about raw hardware. Proper server configuration makes a massive difference. Built-in caching reduces repeated work, while a content delivery network (CDN) serves assets from locations closer to users."
+          },
+          {
+            "type": "p",
+            "text": "Some hosting providers include these features by default. Others require manual setup or charge extra. When these tools are missing or misconfigured, even a well-built site can feel sluggish."
+          },
+
+          {
+            "type": "h3",
+            "text": "How hosting affects SEO and conversions"
+          },
+          {
+            "type": "p",
+            "text": "Search engines factor speed and reliability into rankings. Slow response times can hurt crawl efficiency, increase bounce rates, and reduce visibility in search results."
+          },
+          {
+            "type": "p",
+            "text": "From a business perspective, speed directly affects conversions. Visitors are far less likely to contact you, book a service, or complete a purchase if pages hesitate or fail to load consistently."
+          },
+
+          {
+            "type": "h3",
+            "text": "What small businesses should look for in hosting"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Dedicated or isolated server resources",
+              "Fast SSD or NVMe storage",
+              "Built-in caching and CDN support",
+              "Server locations close to your audience",
+              "Clear performance monitoring and reporting"
+            ]
+          },
+
+          {
+            "type": "h3",
+            "text": "Key takeaways for business owners"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Hosting quality directly impacts site speed and stability",
+              "Cheap hosting often means shared resources and slow performance",
+              "Server location and configuration matter as much as design",
+              "Speed improvements support SEO, usability, and conversions"
+            ]
+          },
+
+          {
+            "type": "p",
+            "text": "A fast website is not just about design or code. It starts at the server level. Choosing the right hosting provider creates a strong foundation that every other optimization builds on."
+          }
+        ]
+      },
+      "tags": ["Hosting", "Performance", "Security"],
+      "stats": { "likes": 175, "comments": 23 }
+    },
+    {
+      "id": "why-mobile-friendly-design-isnt-optional",
+      "title": "Why Mobile-Friendly Design Isn’t Optional",
+      "slug": "why-mobile-friendly-design-isnt-optional",
+      "category": { "label": "", "slug": "" },
+      "date": "2025-12-07",
+      "excerpt": "Mobile-friendly design is no longer a nice-to-have. Learn why mobile usability directly affects SEO, conversions, and credibility — and what small businesses must get right to compete today.",
+      "thumbnail": {
+        "src": "/assets/images/blog-imgs/3/1.jpg",
+        "alt": "Small business SEO checklist"
+      },
+      "content": {
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Mobile-friendly design used to be a bonus. Today, it is a baseline expectation. With most users browsing, searching, and contacting businesses from their phones, a site that does not work well on mobile actively loses traffic, trust, and revenue."
+          },
+
+          {
+            "type": "h3",
+            "text": "Mobile is where most users start"
+          },
+          {
+            "type": "p",
+            "text": "For many small businesses, the majority of website visits come from mobile devices. People search while commuting, waiting, or comparing options on the go. If your site is hard to read, slow to load, or awkward to navigate on a phone, users leave quickly."
+          },
+          {
+            "type": "p",
+            "text": "Mobile visitors are often high-intent. They are looking to call, get directions, or request a quote. Poor mobile design blocks those actions."
+          },
+
+          {
+            "type": "h3",
+            "text": "Mobile usability directly affects SEO"
+          },
+          {
+            "type": "p",
+            "text": "Search engines prioritize mobile experiences when evaluating websites. A site that performs poorly on mobile devices can struggle to rank, even if the desktop version looks fine."
+          },
+          {
+            "type": "p",
+            "text": "Issues like tiny text, elements too close together, slow load times, and horizontal scrolling all send negative signals. These problems reduce crawl efficiency and increase bounce rates."
+          },
+
+          {
+            "type": "h3",
+            "text": "Mobile-first design is not the same as shrinking a desktop site"
+          },
+          {
+            "type": "p",
+            "text": "True mobile-friendly design starts with mobile in mind. It prioritizes clarity, speed, and ease of interaction before scaling up to larger screens."
+          },
+          {
+            "type": "p",
+            "text": "This means readable typography, clear spacing, touch-friendly buttons, and layouts that guide users toward key actions without clutter."
+          },
+
+          {
+            "type": "h3",
+            "text": "Speed matters more on mobile"
+          },
+          {
+            "type": "p",
+            "text": "Mobile users are less patient and often on slower connections. Heavy images, unnecessary scripts, and bloated layouts hurt mobile performance far more than desktop."
+          },
+          {
+            "type": "p",
+            "text": "Optimized images, lazy loading, and lean layouts improve load times and keep users engaged long enough to convert."
+          },
+
+          {
+            "type": "h3",
+            "text": "Conversions depend on mobile experience"
+          },
+          {
+            "type": "p",
+            "text": "A mobile-friendly site makes it easy to take action. Calling, submitting a form, booking an appointment, or getting directions should require minimal effort."
+          },
+          {
+            "type": "p",
+            "text": "If users need to pinch, zoom, or hunt for buttons, they are far less likely to follow through. Small friction points add up quickly on mobile."
+          },
+
+          {
+            "type": "h3",
+            "text": "What mobile-friendly design actually includes"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Responsive layouts that adapt to all screen sizes",
+              "Readable text without zooming",
+              "Buttons and links sized for touch",
+              "Fast load times on cellular connections",
+              "Clear navigation and simple page structure"
+            ]
+          },
+
+          {
+            "type": "h3",
+            "text": "Key takeaways for business owners"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Most users will experience your site on mobile first",
+              "Mobile usability impacts SEO and visibility",
+              "Speed and simplicity matter more on small screens",
+              "Better mobile design leads directly to more conversions"
+            ]
+          },
+
+          {
+            "type": "p",
+            "text": "Mobile-friendly design is not about trends or aesthetics. It is about meeting users where they are and removing friction from the path to action. In today’s web, a site that ignores mobile is choosing to fall behind."
+          }
+        ]
+      },
+      "tags": ["UX/UI", "Responsivenes", "Design"],
+      "stats": { "likes": 175, "comments": 23 }
+    },
+    {
+      "id": "what-makes-a-logo-memorable",
+      "title": "What Makes a Logo Memorable? 5 Principles That Work",
+      "slug": "what-makes-a-logo-memorable",
+      "category": { "label": "", "slug": "" },
+      "date": "2025-11-30",
+      "excerpt": "A memorable logo isn’t about trends or complexity. Learn the five core principles that make logos recognizable, versatile, and effective — and why simplicity and consistency matter more than ever.",
+      "thumbnail": {
+        "src": "/assets/images/blog-imgs/2/1.jpg",
+        "alt": "Small business SEO checklist"
+      },
+      "content": {
+        "blocks": [
+          {
+            "type": "p",
+            "text": "A logo is often the first impression a business makes. Some logos stick instantly, while others are forgotten just as fast. The difference usually has less to do with style and more to do with fundamentals. Memorable logos follow a small set of principles that work across industries and eras."
+          },
+
+          {
+            "type": "h3",
+            "text": "1. Simplicity"
+          },
+          {
+            "type": "p",
+            "text": "The most memorable logos are simple. Simple logos are easier to recognize, easier to reproduce, and easier to recall. They work at small sizes, load quickly on screens, and remain clear even at a glance."
+          },
+          {
+            "type": "p",
+            "text": "Complex logos may look impressive at first, but they often lose impact when scaled down or viewed quickly. Simplicity gives a logo staying power."
+          },
+
+          {
+            "type": "h3",
+            "text": "2. Distinctiveness"
+          },
+          {
+            "type": "p",
+            "text": "A logo should clearly differentiate a brand from competitors. If it looks interchangeable with others in the same industry, it will struggle to stand out."
+          },
+          {
+            "type": "p",
+            "text": "Distinctiveness does not require being loud or trendy. It comes from intentional shapes, proportions, and details that feel unique without being distracting."
+          },
+
+          {
+            "type": "h3",
+            "text": "3. Relevance"
+          },
+          {
+            "type": "p",
+            "text": "Memorable logos feel appropriate for the business they represent. They align with the brand’s values, audience, and personality without being overly literal."
+          },
+          {
+            "type": "p",
+            "text": "A logo does not need to explain everything a business does, but it should feel like it belongs in the right context and industry."
+          },
+
+          {
+            "type": "image",
+            "src": "/assets/images/blog-imgs/2/2.jpeg",
+            "alt": "Examples of simple and memorable logo designs"
+          },
+
+          {
+            "type": "h3",
+            "text": "4. Versatility"
+          },
+          {
+            "type": "p",
+            "text": "A strong logo works everywhere. It should look good in color and black and white, on light and dark backgrounds, and across digital and physical formats."
+          },
+          {
+            "type": "p",
+            "text": "Versatile logos adapt easily to websites, social media, signage, print materials, and merchandise without losing clarity or impact."
+          },
+
+          {
+            "type": "h3",
+            "text": "5. Consistency"
+          },
+          {
+            "type": "p",
+            "text": "Memorability grows through repetition. Even a well-designed logo will struggle if it is used inconsistently across platforms."
+          },
+          {
+            "type": "p",
+            "text": "Consistent use of color, spacing, and placement helps build recognition over time and reinforces trust with an audience."
+          },
+
+          {
+            "type": "h3",
+            "text": "Key takeaways for business owners"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Simple logos are easier to recognize and remember",
+              "Distinctiveness helps a brand stand out in crowded markets",
+              "Relevance connects a logo to the right audience",
+              "Versatility ensures the logo works everywhere",
+              "Consistency builds recognition and trust over time"
+            ]
+          },
+
+          {
+            "type": "p",
+            "text": "A memorable logo is not about chasing design trends. It is about clarity, intention, and consistent use. When these principles are in place, a logo becomes a powerful foundation for everything that follows."
+          }
+        ]
+      },
+      "tags": ["Logo", "Branding", "Design"],
+      "stats": { "likes": 175, "comments": 23 }
+    },
+    {
+      "id": "creative-ways-to-use-video-on-your-website",
+      "title": "Creative Ways to Use Video on Your Website",
+      "slug": "creative-ways-to-use-video-on-your-website",
+      "category": { "label": "", "slug": "" },
+      "date": "2025-11-16",
+      "excerpt": "Video can do more than sit on a page. From video hero sections to scroll-activated clips and portfolio showcases, these creative uses of video help websites feel modern, engaging, and conversion-focused.",
+      "thumbnail": {
+        "src": "/assets/images/blog-imgs/1/1.jpg",
+        "alt": "Small business SEO checklist"
+      },
+      "content": {
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Video has become one of the most effective tools on the web, but many sites still use it in limited or outdated ways. When used intentionally, video can guide attention, explain value faster than text, and create a stronger emotional connection with visitors."
+          },
+
+          {
+            "type": "h3",
+            "text": "Why video works so well on websites"
+          },
+          {
+            "type": "p",
+            "text": "Video communicates tone, scale, and credibility almost instantly. Visitors can understand what you do and how you do it in seconds, which is especially important for service-based and visual businesses."
+          },
+          {
+            "type": "p",
+            "text": "The key is not just adding video, but placing it where it supports the user journey instead of distracting from it."
+          },
+
+          {
+            "type": "h3",
+            "text": "1. Video hero sections that set the tone"
+          },
+          {
+            "type": "p",
+            "text": "A video hero is often the first thing visitors see. Instead of a static image, a short looping video can immediately show your work, environment, or process."
+          },
+          {
+            "type": "p",
+            "text": "Effective hero videos are subtle and focused. They load quickly, loop smoothly, and reinforce the headline rather than compete with it. This approach works especially well for construction, real estate, creative, and local service businesses."
+          },
+
+          {
+            "type": "h3",
+            "text": "2. Video inside portfolio and project pages"
+          },
+          {
+            "type": "p",
+            "text": "Portfolio pages are a natural place for video. Short clips showing finished work, behind-the-scenes moments, or before-and-after transformations add depth that images alone cannot provide."
+          },
+          {
+            "type": "p",
+            "text": "Video helps visitors understand scale, movement, and quality, making portfolios feel more real and credible. It also keeps users on the page longer, which supports engagement and SEO signals."
+          },
+
+          {
+            "type": "image",
+            "src": "/assets/images/blog-imgs/6/2.jpg",
+            "alt": "Examples of video used on websites including hero sections and portfolios"
+          },
+
+          {
+            "type": "h3",
+            "text": "3. Play-on-scroll video interactions"
+          },
+          {
+            "type": "p",
+            "text": "Play-on-scroll video is a more advanced but highly engaging technique. Instead of pressing play, the video progresses as the user scrolls down the page."
+          },
+          {
+            "type": "p",
+            "text": "This works well for storytelling, step-by-step explanations, or showing a process unfold. When done subtly, it feels interactive and modern without overwhelming the experience."
+          },
+
+          {
+            "type": "h3",
+            "text": "4. Explainer and process videos"
+          },
+          {
+            "type": "p",
+            "text": "Short explainer videos can simplify complex services or workflows. These videos are often placed near service descriptions or FAQs to answer common questions before a visitor reaches out."
+          },
+          {
+            "type": "p",
+            "text": "Process videos also build trust by showing transparency and professionalism, helping potential clients feel more confident in taking the next step."
+          },
+
+          {
+            "type": "h3",
+            "text": "5. Subtle background and section videos"
+          },
+          {
+            "type": "p",
+            "text": "Background videos used sparingly within sections can add motion and texture to a page. These should remain muted, looped, and lightweight so they enhance the layout rather than distract from content."
+          },
+          {
+            "type": "p",
+            "text": "The goal is atmosphere, not attention overload."
+          },
+
+          {
+            "type": "h3",
+            "text": "Best practices for using video on your site"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Keep videos short and purposeful",
+              "Optimize files for fast loading",
+              "Avoid autoplay with sound",
+              "Use video to support, not replace, key messaging",
+              "Test performance on mobile devices"
+            ]
+          },
+
+          {
+            "type": "h3",
+            "text": "Key takeaways for business owners"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Video helps visitors understand your value faster",
+              "Hero videos set mood and credibility immediately",
+              "Portfolio videos add realism and trust",
+              "Play-on-scroll video creates modern, interactive storytelling",
+              "Intentional placement matters more than quantity"
+            ]
+          },
+
+          {
+            "type": "p",
+            "text": "Video does not need to be everywhere to be effective. When placed strategically, it becomes one of the strongest tools for engagement, clarity, and conversion on a modern website."
+          }
+        ]
+      },
+      "tags": ["Design", "Web Development", "Video"],
+      "stats": { "likes": 175, "comments": 23 }
+    }
+  ]
+}
