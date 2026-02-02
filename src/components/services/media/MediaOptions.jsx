@@ -129,7 +129,7 @@ export default function MediaOptions() {
                     </li>
                     <li>
                       <img src="/assets/images/home1/arrow.svg" alt="Icon" />
-                      <h3>ASocial and short-form video content</h3>
+                      <h3>Social and short-form video content</h3>
                     </li>
                     <li>
                       <img src="/assets/images/home1/arrow.svg" alt="Icon" />
