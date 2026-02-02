@@ -4,6 +4,7 @@ import nodemailer from "nodemailer";
 import { NextResponse } from "next/server";
 
 export async function POST(request) {
+
   try {
     // Extract form data and reCAPTCHA response from the request body
     const { formData, captchaResponse } = await request.json();
@@ -44,9 +45,7 @@ export async function POST(request) {
         text: `
           Name: ${formData.name}
           Email: ${formData.email}
-          Phone Number: ${formData.number}
-          Company: ${formData.company}
-          Subject: "New Message from brixbiz.com Form"
+
           Message: ${formData.message}
         `,
       };

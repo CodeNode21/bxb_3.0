@@ -75,7 +75,7 @@ export default function SolutionsArea() {
               </p> */}
               <div className="mt-50">
                 <Link
-                  className="bxb-default-btn aos-init aos-animate"
+                  className="bxb-default-btn "
                   data-aos="fade-up"
                   data-aos-delay="600"
                   href="/contact-us"

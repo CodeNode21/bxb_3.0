@@ -1,7 +1,6 @@
- 
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import ScrollSmoother from "gsap/ScrollSmoother";
@@ -12,57 +11,66 @@ import "aos/dist/aos.css";
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother, SplitText);
 
 export default function AnimationProvider() {
-  // ✅ Initialize AOS first (simple scroll animations)
+  const [mounted, setMounted] = useState(false);
+
   useEffect(() => {
-    AOS.init({
-      duration: 500,
-      once: true,
-      easing: "ease-in-out",
-    });
+    setMounted(true);
   }, []);
 
   useEffect(() => {
-    if (typeof window === "undefined") return;
+    if (!mounted) return;
 
-    let smoother: ScrollSmoother; 
-    let ctx: gsap.Context;
+    // Delay AOS until after hydration settles
+    const id = window.setTimeout(() => {
+      AOS.init({
+        duration: 500,
+        once: true,
+        easing: "ease-in-out",
+      });
+      AOS.refresh(); // ensures it picks up elements rendered after mount
+    }, 0);
+
+    return () => window.clearTimeout(id);
+  }, [mounted]);
+
+  useEffect(() => {
+    if (!mounted) return;
+
+    let smoother: ScrollSmoother | undefined;
+    let ctx: gsap.Context | undefined;
 
     const initGSAP = () => {
       ctx = gsap.context(() => {
-        // ✅ Kill any existing smoother safely
         ScrollSmoother.get()?.kill();
 
-        // ✅ Initialize ScrollSmoother
         smoother = ScrollSmoother.create({
           smooth: 1.2,
           effects: true,
           smoothTouch: false,
           normalizeScroll: false,
           ignoreMobileResize: true,
-        });       
+        });
+
+        ScrollTrigger.refresh();
       });
     };
 
-    // ✅ Run GSAP after AOS finishes DOM updates
-    requestAnimationFrame(() => {
-      setTimeout(initGSAP, 300);
-    });
+    // Push GSAP init a bit later too
+    const id = window.setTimeout(() => {
+      requestAnimationFrame(initGSAP);
+    }, 0);
 
-    // ✅ Refresh ScrollTrigger on window resize
-    const handleResize = () => {
-      ScrollTrigger.refresh();
-    };
-
+    const handleResize = () => ScrollTrigger.refresh();
     window.addEventListener("resize", handleResize);
 
-    // ✅ Cleanup
     return () => {
-      if (ctx) ctx.revert();
-      if (smoother) smoother.kill();
+      window.clearTimeout(id);
+      ctx?.revert();
+      smoother?.kill();
       window.removeEventListener("resize", handleResize);
       ScrollTrigger.getAll().forEach((st) => st.kill());
     };
-  }, []);
+  }, [mounted]);
 
   return null;
 }

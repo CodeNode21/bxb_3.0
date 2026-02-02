@@ -331,8 +331,8 @@ export default function ContactArea() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    number: "",
-    company: "",
+    // number: "",
+    // company: "",
     message: "",
   });
 
@@ -371,7 +371,7 @@ export default function ContactArea() {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    // console.log("Submitting form...");
+    console.log("Submitting form...");
     if (!captchaValue) {
       setErrorMessage("Please complete the CAPTCHA.");
     } else {
@@ -388,7 +388,7 @@ export default function ContactArea() {
             captchaResponse: captchaValue,
           }),
         });
-        // console.log("fetch happened...");
+        console.log("fetch happened...");
 
         if (response.ok) {
           // Form submitted successfully
@@ -398,8 +398,8 @@ export default function ContactArea() {
           setFormData({
             name: "",
             email: "",
-            number: "",
-            company: "",
+            // number: "",
+            // company: "",
             message: "",
           });
 
@@ -425,11 +425,13 @@ export default function ContactArea() {
     setCaptchaValue(value);
   };
 
-  const isFormValid = () => {
+  const isFormValid = () =>
     Boolean(
-      formData.name && formData.email && formData.message && captchaValue,
+      formData.name.trim() &&
+      formData.email.trim() &&
+      formData.message.trim() &&
+      captchaValue
     );
-  };
   return (
     <div className="bxb-section-padding">
       <div className="container">
@@ -537,7 +539,7 @@ export default function ContactArea() {
                   </div>
                 </div>
                 <div className="bxb-contact-column">
-                  <div className="bxb-contact-field">
+                  {/* <div className="bxb-contact-field">
                     <label>Phone number</label>
                     <input
                       name="number"
@@ -549,8 +551,8 @@ export default function ContactArea() {
                       value={formData.number}
                       onChange={handleChange}
                     />
-                  </div>
-                  <div className="bxb-contact-field">
+                  </div> */}
+                  {/* <div className="bxb-contact-field">
                     <label>Company</label>
                     <input
                       name="company"
@@ -560,7 +562,7 @@ export default function ContactArea() {
                       value={formData.company}
                       onChange={handleChange}
                     />
-                  </div>
+                  </div> */}
                 </div>
                 <div className="bxb-contact-field">
                   <label>Message</label>
@@ -592,9 +594,9 @@ export default function ContactArea() {
                   aria-live="polite"
                   aria-atomic="true"
                 />
-              </form>
               {successMessage && <div>{successMessage}</div>}
               {errorMessage && <div>{errorMessage}</div>}
+              </form>
             </div>
           </div>
         </div>
