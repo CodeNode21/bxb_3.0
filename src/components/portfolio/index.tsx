@@ -11,7 +11,7 @@ export default function Portfolio() {
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <Breacrumb title="Our Portfolio" page="Our Portfolio" />
-          <div>
+          {/* <div>
             <h3>Websites</h3>
             <p>Tommyleonardjr.com</p>
             <p>Dream Builders</p>
@@ -46,7 +46,7 @@ export default function Portfolio() {
             <h3>Animations</h3>
             <p>Doctor Hanna</p>
             <p>JIRA</p>
-          </div>
+          </div> */}
 
           {/* list of clients */}
           {/* <div>
@@ -112,7 +112,7 @@ export default function Portfolio() {
             </div>
           </div> */}
 
-          <PortfolioArea />
+          {/* <PortfolioArea /> */}
           <FooterOne />
         </div>
       </div>
