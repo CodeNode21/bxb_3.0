@@ -13,7 +13,7 @@ export default function SinglePortfolio() {
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <Breacrumb title="Portfolio Details" page="Portfolio Details" />
-          <PortfolioDetailsArea />      
+          {/* <PortfolioDetailsArea />       */}
           <FooterOne />         
         </div>
       </div>
