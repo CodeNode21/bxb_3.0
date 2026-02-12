@@ -47,7 +47,7 @@ export default function HeroHomeOne() {
               data-aos="fade-up"
               data-aos-delay="900"
               href="/services"
-              data-text="Our Services"
+              data-text="Services"
             >
               <span className="button-wraper">What we do</span>
             </Link>
