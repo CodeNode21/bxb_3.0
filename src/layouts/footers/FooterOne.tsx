@@ -84,7 +84,7 @@ export default function FooterOne() {
             <div className="col-xl-4 col-lg-12 col-md-12">
               <div className="bxb-footer-textarea">
                 <Link href="/">
-                  <Image
+                  <img
                     src="/assets/images/logo_alt1.png"
                     width="250"
                     height="125"

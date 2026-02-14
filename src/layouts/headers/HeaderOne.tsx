@@ -18,7 +18,7 @@ export default function HeaderOne() {
             <div className="col-8 col-sm-auto ">
               <div className="header-logo">
                 <Link href="/">
-                  <Image src="/assets/images/logo_alt1.png" width='150' height="67" alt="logo" />   
+                  <img src="/assets/images/logo_alt1.png" width='150' height="67" alt="logo" />   
                 </Link>
               </div>
             </div>
