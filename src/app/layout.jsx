@@ -1,4 +1,3 @@
-import GAListener from "@/hooks/GAListener";
 import "./globals.css";
 import Script from "next/script";
 
@@ -46,7 +45,7 @@ export default function RootLayout({ children }) {
         }}
       />
       </head>
-      <body>{gaId1 ? <GAListener gaId={gaId1} /> : null}{children}</body>
+      <body>{children}</body>
 
     </html>
   );
