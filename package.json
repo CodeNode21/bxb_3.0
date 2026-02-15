@@ -8,6 +8,7 @@
     "start": "next start -p 5001"
   },
   "dependencies": {
+    "@next/third-parties": "^16.1.6",
     "aos": "^2.3.4",
     "axios": "^1.13.4",
     "gsap": "^3.13.0",

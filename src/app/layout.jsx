@@ -1,5 +1,6 @@
+import GoogleAnalytics from "@/hooks/GoogleAnalytics";
 import "./globals.css";
-import Script from "next/script";
+import { WebVitals } from "@/hooks/WebVitals";
 
 export const metadata = {
   title: "Brixbiz",
@@ -7,7 +8,6 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-
   const gaId1 = process.env.NEXT_PUBLIC_G_TAG_ID;
   return (
     <html lang="en">
@@ -29,23 +29,13 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
       </head>
-      <body>{children}</body>
-      <Script
-        src={`https://www.googletagmanager.com/gtag/js?id=${gaId1}`}
-        strategy="afterInteractive"
-      />
-      <Script
-        id="google-analytics"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', '${gaId1}');
-    `,
-        }}
-      />
+      <body>
+        {children}
+        {/* Google Analytics - @next/third-parties optimized - loads after hydration */}
+        <GoogleAnalytics />
+        {/* Core Web Vitals Tracking */}
+        <WebVitals />
+      </body>
     </html>
   );
 }

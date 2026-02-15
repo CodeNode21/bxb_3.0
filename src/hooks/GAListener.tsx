@@ -1,5 +1,5 @@
 "use client";
-
+// https://medium.com/@aashari/google-analytics-ga4-implementation-guide-for-next-js-16-a7bbf267dbaa
 import { usePathname, useSearchParams } from "next/navigation";
 import { useEffect } from "react";
 
