@@ -10,8 +10,7 @@ import GraphicOptions from "./GraphicOptions";
 
 export default function GraphicDesignService() {
   return (
-    <Wrapper>
-      <HeaderOne />
+    <>
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <Breacrumb title="Graphic Design" page="Graphic-Design" />
@@ -83,9 +82,8 @@ export default function GraphicDesignService() {
           <GraphicsPricingArea />
           <DividerArea />
           <AboutCta />
-          <FooterOne />
         </div>
       </div>
-    </Wrapper>
+    </>
   );
 }

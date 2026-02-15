@@ -1,8 +1,5 @@
 import Breacrumb from "@/common/Breacrumb";
 import AboutCta from "@/components/about-us/AboutCta";
-import FooterOne from "@/layouts/footers/FooterOne";
-import HeaderOne from "@/layouts/headers/HeaderOne";
-import Wrapper from "@/layouts/Wrapper";
 import MediaPricingArea from "./mediaPricingArea";
 import DividerArea from "@/common/DividerArea";
 import MediaFeatures from "./MediaFeatures";
@@ -10,8 +7,7 @@ import MediaOptions from "./MediaOptions";
 
 export default function MediaService() {
   return (
-    <Wrapper>
-      <HeaderOne />
+    <>
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <Breacrumb title="Media & Content" page="Media" />
@@ -84,9 +80,8 @@ export default function MediaService() {
           {/* <MediaDetailsArea /> */}
           <DividerArea />
           <AboutCta />
-          <FooterOne />
         </div>
       </div>
-    </Wrapper>
+    </>
   );
 }

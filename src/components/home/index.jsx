@@ -11,8 +11,7 @@ import AboutHomeOne from "./AboutHomeOne";
 
 export default function HomeOne() {
 	return (
-		<Wrapper>
-			<HeaderOne />
+		<>
 			<div id="smooth-wrapper">
 				<div id="smooth-content">
           <HeroHomeOne />
@@ -22,9 +21,8 @@ export default function HomeOne() {
           <PricingHomeOne />
           <FaqHomeOne />
           <TestimonialHomeOne />
-          <FooterOne />
         </div>
 			</div>
-		</Wrapper>
+		</>
 	);
 }

@@ -1,6 +1,9 @@
 import GoogleAnalytics from "@/hooks/GoogleAnalytics";
 import "./globals.css";
 import { WebVitals } from "@/hooks/WebVitals";
+import Wrapper from "@/layouts/Wrapper";
+import FooterOne from "@/layouts/footers/FooterOne";
+import HeaderOne from "@/layouts/headers/HeaderOne";
 
 export const metadata = {
   title: "Brixbiz",
@@ -30,7 +33,11 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body>
-        {children}
+        <Wrapper>
+          <HeaderOne />
+          {children}
+          <FooterOne />
+        </Wrapper>
         {/* Google Analytics - @next/third-parties optimized - loads after hydration */}
         <GoogleAnalytics />
         {/* Core Web Vitals Tracking */}

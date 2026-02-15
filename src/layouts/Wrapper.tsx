@@ -14,9 +14,9 @@ const Wrapper = ({ children }: WrapperProps) => {
 
   return (
     <>
+      {children} 
       <AnimationProvider />
       <ScrollToTop />
-      {children} 
     </>
   );
 };

@@ -1,9 +1,6 @@
 import Breacrumb from "@/common/Breacrumb";
 import AboutCta from "@/components/about-us/AboutCta";
 import PricingHomeOne from "@/components/home/PricingHomeOne";
-import FooterOne from "@/layouts/footers/FooterOne";
-import HeaderOne from "@/layouts/headers/HeaderOne";
-import Wrapper from "@/layouts/Wrapper";
 import WebDevDetailsArea from "./WebDevDetailsArea";
 import DividerArea from "@/common/DividerArea";
 import WebDevOptions from "./WebDevOptions";
@@ -11,8 +8,7 @@ import WebDevFeatures from "./WebDevFeatures";
 
 export default function WebDevelopmentService() {
   return (
-    <Wrapper>
-      <HeaderOne />
+    <>
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <Breacrumb title="Website Builds" page="Web-Development" />
@@ -25,7 +21,6 @@ export default function WebDevelopmentService() {
           {/* <WebDevDetailsArea /> */}
 
           <AboutCta />
-          <FooterOne />
         </div>
       </div>
       {/* <div id="starter">
@@ -86,6 +81,6 @@ export default function WebDevelopmentService() {
           <li>Security updates</li>
         </ul>
       </div> */}
-    </Wrapper>
+    </>
   );
 }

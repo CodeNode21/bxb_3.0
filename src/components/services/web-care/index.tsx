@@ -2,9 +2,6 @@ import Breacrumb from "@/common/Breacrumb";
 import AboutCta from "@/components/about-us/AboutCta";
 import VideoHomeOne from "@/components/home/VideoHomeOne";
 import ServiceInfo from "@/components/single-service/ServiceInfo";
-import FooterOne from "@/layouts/footers/FooterOne";
-import HeaderOne from "@/layouts/headers/HeaderOne";
-import Wrapper from "@/layouts/Wrapper";
 import WebCareDetailsArea from "./WebCareDetailsArea";
 import WebCarePricingArea from "./webcarePricingArea";
 import DividerArea from "@/common/DividerArea";
@@ -13,8 +10,7 @@ import WebCareFeatures from "./WebCareFeatures";
 
 export default function WebCareService() {
   return (
-    <Wrapper>
-      <HeaderOne />
+    <>
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <Breacrumb title="Web Care" page="Web Care" />
@@ -133,9 +129,8 @@ export default function WebCareService() {
 
           <DividerArea />
           <AboutCta />
-          <FooterOne />
         </div>
       </div>
-    </Wrapper>
+    </>
   );
 }

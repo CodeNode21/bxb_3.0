@@ -1,13 +1,9 @@
-import FooterOne from "@/layouts/footers/FooterOne";
-import HeaderOne from "@/layouts/headers/HeaderOne";
-import Wrapper from "@/layouts/Wrapper";
 import Link from "next/link";
 
 
 export default function ErrorPage() {
   return (
-    <Wrapper>
-      <HeaderOne />
+    <>
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <div className="bxb-404-section">
@@ -24,9 +20,8 @@ export default function ErrorPage() {
             </div>
           </div>
 
-          <FooterOne />
         </div>
       </div>
-    </Wrapper>
+    </>
   )
 }
