@@ -1,4 +1,3 @@
-
 interface MenuItem {
   title: string;
   path: string;
@@ -8,10 +7,11 @@ interface MenuItem {
     path: string;
     has_inner_submenu?: boolean;
     noBorder?: boolean;
-    sub_menus?: { title: string; path: string; }[];
+    sub_menus?: { title: string; path: string }[];
   }[];
   noBorder?: boolean;
-}[];
+}
+[];
 
 const menu_data: MenuItem[] = [
   { title: "About Us", has_submenu: false, path: "/about-us" },
@@ -89,6 +89,12 @@ const menu_data: MenuItem[] = [
       //     { title: "reset password", path: "/reset-password" },
       //   ],
       // },
+      // instagram
+      // "https://www.instagram.com/brixbiz/",
+      // linkedin
+      // "https://www.linkedin.com/company/brixbiz-llc/",
+      // youtube
+      // "https://www.youtube.com/channel/UCpBcnRCNcqyUZ96OlNZ8yOg",
     ],
   },
   // { title: "Portfolio", has_submenu: false, path: "/portfolio" },
@@ -102,6 +108,5 @@ const menu_data: MenuItem[] = [
     // ],
   },
 ];
-
 
 export default menu_data;

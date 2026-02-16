@@ -4,10 +4,73 @@ import { WebVitals } from "@/hooks/WebVitals";
 import Wrapper from "@/layouts/Wrapper";
 import FooterOne from "@/layouts/footers/FooterOne";
 import HeaderOne from "@/layouts/headers/HeaderOne";
+import Script from "next/script";
 
+// export const metadata = {
+//   title: "Brixbiz",
+//   description: "Creative Studio built for brick and mortar businesses",
+// };
+const siteUrl = "https://www.brixbiz.com";
+const localBusinessJsonLd = {
+  "@context": "https://schema.org",
+  "@type": ["LocalBusiness", "Organization"],
+  name: "Brixbiz",
+  url: siteUrl,
+  logo: `${siteUrl}/assets/images/logo_alt1.png`,
+  areaServed: [
+    { "@type": "AdministrativeArea", name: "Queens" },
+    { "@type": "City", name: "New York" },
+  ],
+  sameAs: [
+    "https://www.linkedin.com/company/brixbiz-llc/",
+    "https://www.instagram.com/brixbiz/",
+    "https://www.youtube.com/channel/UCpBcnRCNcqyUZ96OlNZ8yOg",
+  ],
+  description:
+    "Custom websites and ongoing web care for small businesses in Queens and NYC.",
+};
 export const metadata = {
-  title: "Brixbiz",
-  description: "Creative Studio built for brick and mortar businesses",
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: "Brixbiz",
+    template: "%s | Brixbiz",
+  },
+  description:
+    "Custom websites and ongoing web care for small businesses in Queens and NYC.",
+  alternates: {
+    canonical: siteUrl,
+  },
+  openGraph: {
+    type: "website",
+    url: siteUrl,
+    siteName: "Brixbiz",
+    title: "Brixbiz",
+    description:
+      "Custom websites and ongoing web care for small businesses in Queens and NYC.",
+    images: [
+      {
+        url: "/og.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Brixbiz",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Brixbiz",
+    description:
+      "Custom websites and ongoing web care for small businesses in Queens and NYC.",
+    images: ["/og.jpg"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -42,6 +105,14 @@ export default function RootLayout({ children }) {
         <GoogleAnalytics />
         {/* Core Web Vitals Tracking */}
         <WebVitals />
+        <Script
+          id="brixbiz-localbusiness-jsonld"
+          type="application/ld+json"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(localBusinessJsonLd),
+          }}
+        />
       </body>
     </html>
   );
