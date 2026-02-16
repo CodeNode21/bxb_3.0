@@ -97,10 +97,15 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         <Wrapper>
-          <HeaderOne />
-          {children}
-          <FooterOne />
+          <div id="smooth-wrapper">
+            <div id="smooth-content">
+              <HeaderOne />
+              {children}
+              <FooterOne />
+            </div>
+          </div>
         </Wrapper>
+
         {/* Google Analytics - @next/third-parties optimized - loads after hydration */}
         <GoogleAnalytics />
         {/* Core Web Vitals Tracking */}

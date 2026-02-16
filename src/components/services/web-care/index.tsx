@@ -11,13 +11,11 @@ import WebCareFeatures from "./WebCareFeatures";
 export default function WebCareService() {
   return (
     <>
-      <div id="smooth-wrapper">
-        <div id="smooth-content">
-          <Breacrumb title="Web Care" page="Web Care" />
-          <WebCareFeatures />
-          <DividerArea />
-          <WebCareOptions />
-          {/* <p>
+      <Breacrumb title="Web Care" page="Web Care" />
+      <WebCareFeatures />
+      <DividerArea />
+      <WebCareOptions />
+      {/* <p>
             Web Care is our ongoing support service for businesses that want
             their website monitored, updated, and measured over time. It’s
             designed to give you visibility into how your site is performing
@@ -123,14 +121,11 @@ export default function WebCareService() {
               scenes.
             </p>
           </div> */}
-          <WebCarePricingArea />
-          {/* <WebCareDetailsArea /> */}
+      <WebCarePricingArea />
+      {/* <WebCareDetailsArea /> */}
 
-
-          <DividerArea />
-          <AboutCta />
-        </div>
-      </div>
+      <DividerArea />
+      <AboutCta />
     </>
   );
 }

@@ -6,19 +6,14 @@ import DividerArea from "@/common/DividerArea";
 export default function IndustryPacksService() {
   return (
     <>
-      <div id="smooth-wrapper">
-        <div id="smooth-content">
-          <Breacrumb title="Industry Packs" page="Industry-Packs" />
-          <IndustryPacksPricingArea />
-          {/* <PricingGrid isYearly="isMonthly"/> */}
-          {/* <IndustryPacksDetailsArea /> */}
-          {/* <VideoHomeOne /> */}
-          {/* <ServiceInfo /> */}
-          <DividerArea/>
-          <AboutCta />
-          
-        </div>
-      </div>
+      <Breacrumb title="Industry Packs" page="Industry-Packs" />
+      <IndustryPacksPricingArea />
+      {/* <PricingGrid isYearly="isMonthly"/> */}
+      {/* <IndustryPacksDetailsArea /> */}
+      {/* <VideoHomeOne /> */}
+      {/* <ServiceInfo /> */}
+      <DividerArea />
+      <AboutCta />
     </>
   );
 }

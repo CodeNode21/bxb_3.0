@@ -4,10 +4,8 @@ import PortfolioArea from "./PortfolioArea";
 export default function Portfolio() {
   return (
     <>
-      <div id="smooth-wrapper">
-        <div id="smooth-content">
-          <Breacrumb title="Our Portfolio" page="Our Portfolio" />
-          {/* <div>
+      <Breacrumb title="Our Portfolio" page="Our Portfolio" />
+      {/* <div>
             <h3>Websites</h3>
             <p>Tommyleonardjr.com</p>
             <p>Dream Builders</p>
@@ -44,8 +42,8 @@ export default function Portfolio() {
             <p>JIRA</p>
           </div> */}
 
-          {/* list of clients */}
-          {/* <div>
+      {/* list of clients */}
+      {/* <div>
             <div>
               <h2>AWTAXNY</h2>
             </div>
@@ -108,9 +106,7 @@ export default function Portfolio() {
             </div>
           </div> */}
 
-          {/* <PortfolioArea /> */}
-        </div>
-      </div>
+      {/* <PortfolioArea /> */}
     </>
   );
 }

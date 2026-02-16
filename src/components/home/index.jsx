@@ -10,19 +10,15 @@ import FooterOne from "@/layouts/footers/FooterOne";
 import AboutHomeOne from "./AboutHomeOne";
 
 export default function HomeOne() {
-	return (
-		<>
-			<div id="smooth-wrapper">
-				<div id="smooth-content">
-          <HeroHomeOne />
-          <FeaturesHomeOne />
-          <AboutHomeOne />
-          <VideoHomeOne />
-          <PricingHomeOne />
-          <FaqHomeOne />
-          <TestimonialHomeOne />
-        </div>
-			</div>
-		</>
-	);
+  return (
+    <>
+      <HeroHomeOne />
+      <FeaturesHomeOne />
+      <AboutHomeOne />
+      <VideoHomeOne />
+      <PricingHomeOne />
+      <FaqHomeOne />
+      <TestimonialHomeOne />
+    </>
+  );
 }

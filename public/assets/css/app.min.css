@@ -1943,7 +1943,6 @@ header.hide-header {
 }
 .bxb-footer-section {
   padding: 130px 0 0;
-  position: relative;
   border-radius: 50px 50px 0 0;
   background-color: var(--light-color2);
   position: relative;

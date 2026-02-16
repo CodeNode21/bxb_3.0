@@ -8,13 +8,11 @@ import MediaOptions from "./MediaOptions";
 export default function MediaService() {
   return (
     <>
-      <div id="smooth-wrapper">
-        <div id="smooth-content">
-          <Breacrumb title="Media & Content" page="Media" />
-          <MediaFeatures />
-          <DividerArea />
-          <MediaOptions />
-          {/* <div>
+      <Breacrumb title="Media & Content" page="Media" />
+      <MediaFeatures />
+      <DividerArea />
+      <MediaOptions />
+      {/* <div>
             <h2>Photography</h2>
             <p>
               Still visuals that represent the business accurately and
@@ -75,13 +73,11 @@ export default function MediaService() {
               <li>Media Refresh Sessions</li>
             </ul>
           </div> */}
-          <MediaPricingArea />
+      <MediaPricingArea />
 
-          {/* <MediaDetailsArea /> */}
-          <DividerArea />
-          <AboutCta />
-        </div>
-      </div>
+      {/* <MediaDetailsArea /> */}
+      <DividerArea />
+      <AboutCta />
     </>
   );
 }

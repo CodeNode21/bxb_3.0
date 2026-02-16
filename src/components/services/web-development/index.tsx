@@ -9,20 +9,16 @@ import WebDevFeatures from "./WebDevFeatures";
 export default function WebDevelopmentService() {
   return (
     <>
-      <div id="smooth-wrapper">
-        <div id="smooth-content">
-          <Breacrumb title="Website Builds" page="Web-Development" />
-          <WebDevFeatures />
-          <DividerArea />
+      <Breacrumb title="Website Builds" page="Web-Development" />
+      <WebDevFeatures />
+      <DividerArea />
 
-          <WebDevOptions />
-          <PricingHomeOne />
-          
-          {/* <WebDevDetailsArea /> */}
+      <WebDevOptions />
+      <PricingHomeOne />
 
-          <AboutCta />
-        </div>
-      </div>
+      {/* <WebDevDetailsArea /> */}
+
+      <AboutCta />
       {/* <div id="starter">
         <p>Starter Page</p>
         <p>

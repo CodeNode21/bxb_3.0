@@ -6,23 +6,16 @@ import OurWorkArea from "./OurWorkArea";
 import AboutCta from "./AboutCta";
 import AboutHomeOne from "../home/AboutHomeOne";
 
- 
-
 export default function Aboutus() {
   return (
     <>
-      <div id="smooth-wrapper">
-        <div id="smooth-content">
-          <Breacrumb title="About Us" page="About Us" />
-          <AboutArea />
-          <AboutCounter />
-          <SolutionsArea />
-          <OurWorkArea />
-          <AboutHomeOne />
-          <AboutCta />
-
-        </div>
-      </div>
+      <Breacrumb title="About Us" page="About Us" />
+      <AboutArea />
+      <AboutCounter />
+      <SolutionsArea />
+      <OurWorkArea />
+      <AboutHomeOne />
+      <AboutCta />
     </>
-  )
+  );
 }

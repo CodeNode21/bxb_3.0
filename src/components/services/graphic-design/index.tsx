@@ -11,13 +11,11 @@ import GraphicOptions from "./GraphicOptions";
 export default function GraphicDesignService() {
   return (
     <>
-      <div id="smooth-wrapper">
-        <div id="smooth-content">
-          <Breacrumb title="Graphic Design" page="Graphic-Design" />
-          <GraphicFeatures />
-          <DividerArea />
-          <GraphicOptions />
-          {/* <div>
+      <Breacrumb title="Graphic Design" page="Graphic-Design" />
+      <GraphicFeatures />
+      <DividerArea />
+      <GraphicOptions />
+      {/* <div>
             <h2>Graphic Design</h2>
             <p></p>
             <ul>
@@ -79,11 +77,9 @@ export default function GraphicDesignService() {
               <li>Digital Illustration</li>
             </ul>
           </div> */}
-          <GraphicsPricingArea />
-          <DividerArea />
-          <AboutCta />
-        </div>
-      </div>
+      <GraphicsPricingArea />
+      <DividerArea />
+      <AboutCta />
     </>
   );
 }
