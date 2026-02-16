@@ -3,8 +3,6 @@
 import UseSticky from "@/hooks/UseSticky";
 import React, { useState, useEffect } from "react";
 
- 
-
 const ScrollToTop = () => {
   const { sticky }: { sticky: boolean } = UseSticky();
   const [showScroll, setShowScroll] = useState(false);
@@ -31,17 +29,17 @@ const ScrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  useEffect(() => {
-    window.addEventListener("scroll", checkScrollTop);
+   useEffect(() => {
+    window.addEventListener("scroll", checkScrollTop, { passive: true });
+    checkScrollTop(); // set initial state on mount
     return () => window.removeEventListener("scroll", checkScrollTop);
-  }, [showScroll]);
+  }, []);
 
   return (
-    <div
-      className={`paginacontainer `}
-      onClick={scrollTop}
-    >
-      <div className={`progress-wrap ${sticky && "active-progress"} ${showScroll ? "active-progress" : ""}`}>
+    <div className={`paginacontainer `} onClick={scrollTop}>
+      <div
+         className={`progress-wrap ${sticky ? "active-progress" : ""} ${showScroll ? "active-progress" : ""}`}
+      >
         <svg
           className="progress-circle svg-content"
           width="100%"
